@@ -95,6 +95,11 @@ public class InterfaceUtilisateur extends JFrame {
         champQuantiteVente = new JTextField(5);
         JButton boutonAjouterVente = new JButton("Ajouter à la vente");
         JButton boutonTerminerVente = new JButton("Terminer la vente");
+        JButton boutonHistorique = new JButton("Historique des Ventes");
+        panelVente.add(boutonHistorique);
+
+        JButton boutonTableauDeBord = new JButton("Tableau de Bord");
+        panelVente.add(boutonTableauDeBord);
 
         panelVente.add(new JLabel("Quantité:"));
         panelVente.add(champQuantiteVente);
@@ -110,10 +115,13 @@ public class InterfaceUtilisateur extends JFrame {
         boutonRechercher.addActionListener(e -> rechercherProduit());
         boutonAjouterVente.addActionListener(e -> ajouterALaVente());
         boutonTerminerVente.addActionListener(e -> terminerVente());
+        boutonHistorique.addActionListener(e -> ouvrirHistoriqueVentes());
 
         // Ajout des listeners pour les nouveaux boutons
         boutonSauvegarder.addActionListener(e -> sauvegarderInventaire());
         boutonCharger.addActionListener(e -> chargerInventaire());
+
+        boutonTableauDeBord.addActionListener(e -> ouvrirTableauDeBord());
 
         // Sélection d'un produit dans la table
         tableProduits.getSelectionModel().addListSelectionListener(e -> {
@@ -237,6 +245,11 @@ public class InterfaceUtilisateur extends JFrame {
         }
     }
 
+    private void ouvrirHistoriqueVentes() {
+        FenetreHistoriqueVentes fenetreHistorique = new FenetreHistoriqueVentes(inventaire);
+        fenetreHistorique.setVisible(true);
+    }
+
     private void mettreAJourAffichageVente() {
         zoneVente.setText(venteEnCours.toString());
     }
@@ -276,6 +289,11 @@ public class InterfaceUtilisateur extends JFrame {
                 JOptionPane.showMessageDialog(this, "Erreur lors du chargement : " + ex.getMessage(), "Erreur", JOptionPane.ERROR_MESSAGE);
             }
         }
+    }
+
+    private void ouvrirTableauDeBord() {
+        TableauDeBord tableauDeBord = new TableauDeBord(inventaire);
+        tableauDeBord.setVisible(true);
     }
 
 
