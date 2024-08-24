@@ -56,9 +56,9 @@ public class MenuPrincipal extends JFrame {
         interfaceVentes.setVisible(true);
     }
 
-    private void ouvrirGestionUtilisateurs() {
-        // À implémenter : ouvrir l'interface de gestion des utilisateurs
-        JOptionPane.showMessageDialog(this, "Fonctionnalité de gestion des utilisateurs à implémenter");
+    private void ouvrirGestionUtilisateurs(){
+        GestionUtilisateursInterface gestionUtilisateursInterface = new GestionUtilisateursInterface(gestionUtilisateurs); 
+        gestionUtilisateursInterface.setVisible(true);
     }
 
     private void ouvrirTableauBord() {
@@ -74,7 +74,7 @@ public class MenuPrincipal extends JFrame {
         
         if (choix == JOptionPane.YES_OPTION) {
             this.dispose();
-            new FenetreConnexion(gestionUtilisateurs).setVisible(true);
+            new FenetreConnexion(gestionUtilisateurs, inventaire).setVisible(true);
         }
     }
 }
