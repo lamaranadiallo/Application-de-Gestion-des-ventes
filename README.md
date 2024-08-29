@@ -72,7 +72,7 @@ Le projet suit une architecture MVC (Modèle-Vue-Contrôleur) pour une meilleure
 
 1. Lancez l'application.
 2. Connectez-vous avec les identifiants par défaut :
-   - Directeur : username "admin", password "admin123"
+   - Directeur : username "mldiallo", password "root123"
    - Caissier : username "caissier", password "caissier123"
 3. Explorez les différentes fonctionnalités selon votre niveau d'accès.
 
