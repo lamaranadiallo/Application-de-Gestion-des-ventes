@@ -91,32 +91,6 @@ The application uses a relational database with the following key tables:
 
 [Insert Entity-Relationship Diagram here]
 
-## Code Structure
-
-```
-src/
-├── main/
-│   ├── java/
-│   │   └── com/
-│   │       └── yourdomain/
-│   │           ├── config/
-│   │           ├── dao/
-│   │           ├── model/
-│   │           ├── service/
-│   │           ├── util/
-│   │           └── gui/
-│   └── resources/
-│       ├── config.properties
-│       └── logback.xml
-└── test/
-    └── java/
-        └── com/
-            └── yourdomain/
-                ├── dao/
-                ├── service/
-                └── util/
-```
-
 ## Key Implementation Highlights
 
 1. **Custom Connection Pool**
