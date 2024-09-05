@@ -12,8 +12,7 @@
 9. [Défis techniques et solutions](#défis-techniques-et-solutions)
 10. [Améliorations futures](#améliorations-futures)
 11. [Contribution](#contribution)
-12. [Licence](#licence)
-13. [Contact](#contact)
+12. [Contact](#contact)
 
 ## Introduction
 
@@ -102,13 +101,3 @@ Le modèle de données de l'application est représenté par le diagramme entit�
 ## Contribution
 
 Les contributions à ce projet sont les bienvenues. N'hésitez pas à forker le projet, créer une branche, ajouter vos modifications et soumettre une pull request.
-
-## Contact
-
-Si vous êtes intéressé par mon profil ou si vous avez des questions sur ce projet, n'hésitez pas à me contacter :
-
-- [Email](mrdiallo77@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/lamarana-diallo-3312a512b/)
-- GitHub(https://github.com/mldiallo001)
-
-Je suis ouvert aux opportunités professionnelles et serais ravi de discuter de projets passionnants !
