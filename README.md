@@ -7,12 +7,11 @@
 4. [Architecture du projet](#architecture-du-projet)
 5. [Installation et configuration](#installation-et-configuration)
 6. [Utilisation](#utilisation)
-7. [Captures d'écran](#captures-décran)
-8. [Modèle de données](#modèle-de-données)
-9. [Défis techniques et solutions](#défis-techniques-et-solutions)
-10. [Améliorations futures](#améliorations-futures)
-11. [Contribution](#contribution)
-12. [Contact](#contact)
+7. [Modèle de données](#modèle-de-données)
+8. [Défis techniques et solutions](#défis-techniques-et-solutions)
+9. [Améliorations futures](#améliorations-futures)
+10. [Contribution](#contribution)
+11. [Contact](#contact)
 
 ## Introduction
 
