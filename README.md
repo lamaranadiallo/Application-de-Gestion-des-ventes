@@ -18,7 +18,18 @@
 
 Cette application de gestion des ventes est un projet personnel développé pour démontrer mes compétences en développement Java et en conception d'interfaces utilisateur. Elle offre une solution complète pour gérer l'inventaire, les ventes et les utilisateurs d'un commerce de détail.
 
-[Vous pouvez insérer ici une capture d'écran de l'écran principal de l'application]
+![Menu Principal](assets/Imgs/Menu_principal.png)
+
+*Figure 1: Menu Principal*
+---
+
+![Gestion des produits](assets/Imgs/Gestion_produit.png)
+
+*Figure 2: Gestion des produits*
+---
+![Tableau de bord](assets/Imgs/Tableau_de_bord.PNG)
+
+*Figure 3: Tableau de bord*
 
 ## Fonctionnalités
 
@@ -74,10 +85,6 @@ Le projet suit une architecture MVC (Modèle-Vue-Contrôleur) pour une meilleure
    - Directeur : username "mldiallo", password "root123"
    - Caissier : username "caissier", password "caissier123"
 3. Explorez les différentes fonctionnalités selon votre niveau d'accès.
-
-## Captures d'écran
-
-[Insérez ici plusieurs captures d'écran montrant les principales interfaces de l'application]
 
 ## Modèle de données
 
